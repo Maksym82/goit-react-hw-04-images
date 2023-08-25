@@ -36,13 +36,13 @@ export  function App() {
 
   const handleKeyDown = event => {
     if (event.code === 'Escape') {
-      deleteEventList;
+      deleteEventList();
     }
   };
 
   const onClickBackdrop = event => {
     if (event.currentTarget === event.target) {
-      deleteEventList;
+      deleteEventList();
     }
   };
 
